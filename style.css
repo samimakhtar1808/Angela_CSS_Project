@@ -1,0 +1,233 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.container-01{
+    height: 98vh;
+    width: 100vw;
+    /* background: linear-gradient(#EAF6F6,rgb(60, 136, 136)); */
+    /* background-color: #EAF6F6; */
+    
+}
+.cloud{
+    height: 137px;
+    width: 151px;
+    opacity: 0.6;
+}
+#pro{
+    text-decoration: underline;
+}
+.text{
+    
+    padding: 32px 645px ;
+
+}
+#top-cloud{
+    position: relative;
+    left: 1420px;
+    padding: 39px;    
+}
+.info{
+    height: 27vh;
+    width: 100vw;
+    color: #66BFBF;
+}
+
+.info p{
+    font-size: 43px;
+    font-family: 'Chilanka', cursive;
+
+}
+.info h1{
+    font-size: 86px;
+    margin-bottom: 42px;
+    font-family: 'Pacifico', cursive;
+
+
+}
+
+#bottom-cloud{
+    position: relative;
+    left: 200px;
+    padding: 39px;
+      
+    
+}
+
+.container-02{
+    height: 2000px;
+    width: 100vw;
+    
+}
+
+.container-02 img{
+    height: 300px;
+    width: 300px;
+
+}
+.section-01{
+    margin-top: 19px;
+    font-family: 'Baloo Tamma 2', cursive;
+    color: teal;
+    width: 570px;
+
+}
+.section-01 h1{
+    font-size: 74px;
+}
+
+.section-01 p{
+    font-size: 23px;
+    color: rgb(25, 27, 27);
+
+}
+
+
+hr{
+    width: 123px;
+    height: 0px;
+    border-top: dotted rgb(177, 236, 236) 8px;
+    border-bottom: none;
+    margin: 60px auto;
+    
+}
+.section-02{
+    
+    width: 56vw;
+    margin: 54px auto 0px;
+    
+}
+.big-text{
+    font-size: 61px;
+    font-family: 'Baloo Tamma 2', cursive;
+    color: teal;
+    text-align: center;
+    
+}
+.mid-text{
+    font-size: 37px;
+    font-family: 'Baloo Tamma 2', cursive;
+    color: teal;
+    text-align: center;
+}
+.sm-text{
+    font-size: 23px;
+    font-family: 'Baloo Tamma 2', cursive;
+    color: rgb(5, 5, 5);
+    width: 650px;
+    margin: 8px auto;
+    text-align: center;
+}
+
+.float-01 img{
+    float: left;
+    border-radius: 19px;
+}
+#text-info{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+.float{
+    margin-top: 94px;
+}
+
+#text-info-2{
+    float: left;
+    
+}
+.float-02{
+    margin-top: 43px;
+}
+.float-02 img{
+    float: right;
+    border-radius: 19px;
+}
+.clear-2{
+    clear: both;
+}
+.btn{
+    padding: 12px;
+    width:173px;
+    height: 74px;
+    background: linear-gradient(rgb(102, 168, 243),#2066D3);
+    outline: none;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Baloo Tamma 2', cursive;
+    display: block;
+    margin: 50px auto;
+    border-radius: 30px;
+    
+}
+.btn:hover{
+    background: linear-gradient(#2066D3,rgb(102, 168, 243));
+    
+}
+
+
+
+.footer{
+    height: 200px;
+    width:100vw;
+    background-color: #66BFBF;
+
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    
+}
+.foot{
+    width: 36vw;
+    margin: auto;
+
+}
+.links li{
+    margin: 34px 34px 34px 91px;
+    list-style: none;
+}
+.links li a{
+    text-decoration: none;
+    font-size: 27px;
+    color: #11999e;
+    font-weight: bold;
+    font-family: 'Baloo Tamma 2', cursive;
+    
+}
+.links li a:hover{
+    color: black;
+}
+
+.footer p{
+    color: #EAF6F6;
+    font-size: 19px;
+    width: 20vw;
+    margin: 1px auto;
+
+
+
+}
+
+.background{
+    background:  url('../img2.jpg');   
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+/* .container-01::before{
+    background: url("../image/img2.jpg") no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    opacity: 0.7;  /*it decides the brightness of the background
+}
+ */
